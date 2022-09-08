@@ -33,9 +33,9 @@ export const config = {
       // 想要发送的人的名字
       name: "许帅静",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ojj0I6K2M7q1Z41POrsQkrIuHIUU",
+      id: "ojj0I6Fb2wegXc2E8z1p85xWr0dM",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "U1_c8b1tlxw72tSBoBRrYVsItwFQAZEAMznF_jYPdzQ",
+      useTemplateId: "CmI7Scq2IHkRBIosue_rDKzDf6imPGqdUBr8X83YjcQ",
       // 所在省份
       province: "河南",
       // 所在城市
@@ -50,7 +50,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "U1_c8b1tlxw72tSBoBRrYVsItwFQAZEAMznF_jYPdzQ",
+  CALLBACK_TEMPLATE_ID: "CmI7Scq2IHkRBIosue_rDKzDf6imPGqdUBr8X83YjcQ",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -82,10 +82,10 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "许帅静", "year": "2002", "date": "05-24"},
+    {"type": "生日", "name": "许帅静", "year": "2002", "date": "01-29"},
    // {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
    // {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "上岸", "year": "2021", "date": "09-01"},
+    {"type": "节日", "name": "上岸", "year": "2023", "date": "04-07"},
   ],
 
   /**
@@ -103,9 +103,9 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    //{"keyword": "exeam_day", date: "2015-05-01"},
+    {"keyword": "love_day", date: "2022-09-08"},
     // 结婚纪念日
-    //{"keyword": "marry_day", date: "2020-01-04"},
+    {"keyword": "marry_day", date: "2022-09-08"},
     // 退伍日, 不用可以删掉
     //{"keyword": "ex_day", date: "2022-08-31"},
     // sakana日
