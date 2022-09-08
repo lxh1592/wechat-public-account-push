@@ -22,7 +22,7 @@ export const config = {
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
    *    id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
+   *    useTemplateId: "U1_c8b1tlxw72tSBoBRrYVsItwFQAZEAMznF_jYPdzQ",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://wangxinleo.cn"
    *   }, 
@@ -35,37 +35,13 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ojj0I6K2M7q1Z41POrsQkrIuHIUU",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "CODgaW7Yvoa_iv9_LLrl2adEJPOYSeE_viP4_NBvTjg",
+      useTemplateId: "U1_c8b1tlxw72tSBoBRrYVsItwFQAZEAMznF_jYPdzQ",
       // 所在省份
       province: "河南",
       // 所在城市
       city: "安阳",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://baidu.com"
-    }, 
-    {
-      name: "老婆1", 
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
-    }, 
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
-    }, 
-    {
-      name: "老婆3", 
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
     }, 
   ],
 
@@ -74,7 +50,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "CODgaW7Yvoa_iv9_LLrl2adEJPOYSeE_viP4_NBvTjg",
+  CALLBACK_TEMPLATE_ID: "U1_c8b1tlxw72tSBoBRrYVsItwFQAZEAMznF_jYPdzQ",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -107,9 +83,9 @@ export const config = {
    */
   FESTIVALS: [
     {"type": "生日", "name": "田锟", "year": "2002", "date": "05-24"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+   // {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+   // {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+   // {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
   ],
 
   /**
@@ -117,7 +93,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 3,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
@@ -127,7 +103,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "exeam_day", date: "2015-05-01"},
+    //{"keyword": "exeam_day", date: "2015-05-01"},
     // 结婚纪念日
     //{"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
@@ -159,7 +135,7 @@ export const config = {
 
   // 好文节选的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: ""
+  //LITERARY_PREFERENCE: ""
 
 
 }
